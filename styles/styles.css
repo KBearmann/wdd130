@@ -5,11 +5,27 @@
 nav {
   backround-color: steelblue;
   padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  <a href="https://www.linkedin.com/in/keillor-behrmann-784076203/" class="social-icon si-rounded si-small si-linkedin">
+    <i class="icon-linkedin"></i>
+    <i class="icon-linkedin"></i>
+  </a>
 }
 nav a {
   color: white;
   display: block;
   padding: 20px;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white
+}
+header, footer{
+  max-width: 840px;
+  margin: 0 auto;
 }
 h1 {
   color: steelblue;
