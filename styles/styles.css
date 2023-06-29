@@ -29,6 +29,8 @@ header, footer{
 }
 h1 {
   color: steelblue;
+  border-bottom: solid steelblue;
+  
 }
 main img {
   float: right;
