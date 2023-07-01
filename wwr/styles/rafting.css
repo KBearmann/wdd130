@@ -35,11 +35,35 @@ article img {
 body{
   font-family:var(--paragraph-font);
   max-width: 960px;
+}
 h1, h2, h3,{
   font-family: var(--heading-font);
   color: var(--primary-color);
-  
+}
+
+.header-box{
+    padding: 30px;
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr .5fr;
+    border-style: solid;
+}
+nav{
+    background-color: var(--accent1-color);
+    font-size: 1.2rem;
+    display: flex;
+    list-style: none;
+}
+ nav{
+    background-color: var(--accent1-color);
+    font-size: 1.2rem;
+    display: flex;
+    list-style: none;
+} 
 .facebook, .insta, .twitter {
     max-height: 40px;
+}
+
 
   
