@@ -1,68 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> Rafting Site Plan | Keillor Behrmann</title>
-    <meta name="description" content=The rafting site plan includes the site purpose, the audience, brand information and the style guide for the course website project.">
-    <meta name="author" content="Keillor B">
-    <link rel="stylesheet" href="styles/site-plan-rafting.css">
-  </head>
-  <header>
-     <h1>Rafting Site Plan</h1>
-     <div> Keillor Behrmann</div>                                                         
-  </header>                                                                
-  <main>
-     <h2>Overview</h2>                                                         
-     <h3>Purpose</h3>                                                         
-     <p>  Our purpose it to sell an amazing experence to great rapids thoughtout the US</p>                                                       
-     <h3>Audience</h3>
-     <p>Our audience is any able bodied person looking for an adventure in the great outdoors.</p>                                                          
-                          
-     <h2>Branding</h2> 
-                                                              
-     <h3>Website Logo</h3>
-     <img src="images/logo.png" alt="Rafting site logo"> 
-     <h2> Style Guide</h2> 
-     <h3>Color Palette</h3>                                                  
-     <p>Primary-#004e64 Secondary-#00a5cf Accent1-#9fffcb Accent2-#5FFFA8</p>
-		 <a href="https://coolors.co/004e64-00a5cf-9fffcb-25a18e-7ae582" target="_blank">https://coolors.co/004e64-00a5cf-9fffcb-25a18e-7ae582</a>		       
-     <h3>Typography</p>
-     @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');                                                                              
-     <h4>Heading Font [IM Fell French Canon]  </h4> 
-     <h4>Normal text/Paragraph Example Font: [Font: Lato]</h4>  
-		 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</p>																									 
-     <h4>Colored callout example font</h4>                                                  
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, inventore.</p>                                                  
-		 <h3>Navagation</h3>                                                  
-     <nav>
-	     <a href="#">Home</a>																								 
-       <a href="#">Page 2</a>                                                
-       <a href="#">Contact Us</a>
-       <li>a href="https://linkedin.com" target="blank">linkedin</a></li>
-       <li>a href="https://facebook.com" target="blank">facebook</a></li>
-     </nav>                                                  
-                                                       
-     <h2>Wireframes</h2>                                                  
-     <h3>Home Page Wireframe</h3>             
-     <img src="https:byui-wdd.github.io/wdd130/rafting_images/wireframe_home.png" alt"Required home page wireframe">
-     <h3>Page 2 Wireframe</h3>                                                                                                              
-  </main>                                                                                                                   
-  <footer>
-     <p>2023 Rafting Site Doc    Keillor Behrmann   WDD 130</p>       
-  </footer>                                                                                                        
-</html>                                                                                                                   
-             
-                                                                                                                   
-                                                                                                                 
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
-                                                                                                                   
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Awesome Rafting Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="faq.html">FAQ</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="People enjoying rafting">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Dry Oar</h1>
+                <h4>Make Memorie</h4>
+                <div class="button-box">
+                    <a class="book" href="contactus.html">Book Now</a>
+                </div>
+            </section>
+        </div>
+        <main class="home-grid">
+            <section class="rivers-card">
+                <img class="card-img" src="images/rivers.jpg" alt="River in forest">
+                <img class="icon" src="images/river_icon.png" alt="river icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="images/camping.jpg" alt="Tent in mountains">
+                <img class="icon" src="images/fire_icon.png" alt="fire icon">
+                <h2>Camping</h2>
+            </section>
+            <section class="rapids-card">
+                <img class="card-img" src="images/rapids.jpg" alt="Rafting boat">
+                <img class="icon" src="images/oars.png" alt="oars icon">
+                <h2>Rapids</h2>
+            </section>
+            <div id="background"></div>
+            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the rapids. It's a great way to get away and relax with all the beauty of the great outdoors. </p>
+                <a class="join" href="rivers.html">Join Us</a>
+            </section>
+        </main>
+        <footer>
+            <p>Dry Oar 2023 - Keillor Behrmann</p>
+            <p><a href="site-plan-rafting.html">Site Plan</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
