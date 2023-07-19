@@ -59,8 +59,8 @@ a {
     border-radius: 20px;
 }
 .stats img {
-    float: right;
-    width: 180px;
+    float: left;
+    width: 220px;
     height: auto;
     padding-top: 18px;
     padding-right: 13px;
