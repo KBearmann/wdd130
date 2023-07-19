@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: darkblue;
+  background-color: cadetblue;
 }
 
 
@@ -41,9 +41,9 @@ body {
 }
 main img {
   float: right;
-  width: 150px;
+  width: 250px;
   height: auto;
-  border: 1px solid steelblue; 
+  border: 1px solid salmon; 
   padding: 2px;
   box-shaddow: 0 0 30px gray;
 }
@@ -97,7 +97,7 @@ aside {
   border: 1px solid rgba(0,0,0,.1);
   padding: 1rem;
   background-color: #ddd;
-  color: #000;
+  color: salmon;
 }
 .box a:hover {
     text-decoration: none;
