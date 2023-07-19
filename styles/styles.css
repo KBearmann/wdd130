@@ -35,6 +35,9 @@ h1 {
   border-bottom: solid steelblue;
   
 }
+body {
+  background-color: lightblue;
+}
 main img {
   float: right;
   width: 150px;
