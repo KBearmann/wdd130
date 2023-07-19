@@ -38,6 +38,7 @@ article img {
 body{
   font-family:var(--paragraph-font);
   max-width: 960px;
+  background-color: #004e64;
 }
 h1, h2, h3,{
   font-family: var(--heading-font);
