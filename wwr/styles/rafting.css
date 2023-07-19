@@ -6,7 +6,7 @@
   --accent2-color: STEELBLUE;
 
   --heading-font: IM+Fell+French+Canon&family;
-  --paragraph-font:IM+Fell+French+Canon&family;
+  --paragraph-font:Lato;
 
 }
 
@@ -174,7 +174,7 @@ figure {
     width: 650px;
     margin: 25px auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid steelblue;
     border-radius: 10px;
     background-color: #eee;
     display: grid;
@@ -183,14 +183,14 @@ fieldset {
     display: grid;
     grid-gap: .4rem;
     margin: .5rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid steelblue;
     padding: .5rem;
 }
 legend {
     padding: .3rem;
     color: var(--accent1-color);
     font-size: 1.3rem;
-    font-family: Dosis, Arial, sans-serif;
+    font-family: loto, Arial, IM Fell French Canon;
     font-weight: bolder;
 }
 label, input, button, select, textarea {
@@ -249,10 +249,10 @@ button:hover {
     background-color: var(--nav-hover-background-color);
 }
 table {
-    width: 650px;
+    width: 630px;
     margin: 25px auto;
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid steelblue;
     border-radius: 10px;
     background-color: #eee;
     display: grid;
@@ -262,8 +262,8 @@ table, th, td {
     border: 1px solid var(--accent1-color);
 }
 th, td {
-    width: 120px;
-    height: 30px;
+    width: 110px;
+    height: 26px;
     color: var(--accent1-color);
     font-weight: bolder;
     font-family: var(--paragraph-font);
